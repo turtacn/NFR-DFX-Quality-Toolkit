@@ -1,7 +1,7 @@
 # NFR-DFX-Quality-Toolkit
 
 [![许可证: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
-[![构建状态](https://github.com/turtacn/NFR-DFX-Quality-Toolkit/workflows/CI/badge.svg)](https://github.com/turtacn/NFR-DFX-Quality-Toolkit/actions)
+
 
 [English](README.md) | [中文](README-zh.md)| [Concept](Concept.md)
 
@@ -186,20 +186,4 @@ func main() {
     // 启动监控
     engine.Start()
 }
-```
-
-## 项目结构
-
-```
-NFR-DFX-Quality-Toolkit/
-├── docs/                    # 文档和指南
-├── sdk/                     # 核心SDK组件
-├── framework/               # 语言特定模板
-├── toolkit/                 # CLI工具和实用程序
-├── examples/                # 完整示例项目
-├── dev-repo/               # 社区协作
-├── internal/               # 内部包
-├── pkg/                    # 公共包
-├── cmd/                    # 命令行应用
-└── configs/                # 配置文件
 ```

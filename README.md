@@ -1,7 +1,7 @@
 # NFR-DFX-Quality-Toolkit
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Build Status](https://github.com/turtacn/NFR-DFX-Quality-Toolkit/workflows/CI/badge.svg)](https://github.com/turtacn/NFR-DFX-Quality-Toolkit/actions)
+
 
 [English](README.md) | [中文](README-zh.md)  | [Concept](Concept.md)
 
@@ -178,22 +178,6 @@ func main() {
     // Start monitoring
     engine.Start()
 }
-```
-
-## Project Structure
-
-```
-NFR-DFX-Quality-Toolkit/
-├── docs/                    # Documentation and guides
-├── sdk/                     # Core SDK components
-├── framework/               # Language-specific templates
-├── toolkit/                 # CLI tools and utilities
-├── examples/                # Complete example projects
-├── dev-repo/               # Community collaboration
-├── internal/               # Internal packages
-├── pkg/                    # Public packages
-├── cmd/                    # Command-line applications
-└── configs/                # Configuration files
 ```
 
 ## Contributing
