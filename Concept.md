@@ -31,12 +31,12 @@
 
 | 场景元素 | 描述 | 示例：前端快速加载 |
 | :--- | :--- | :--- |
-| **激励源（Stimulus Source）** | [cite_start]发出激励的主体，可以是人、系统或其他行动者。 [cite: 153, 158] | Web 应用用户 |
-| **激励（Stimulus）** | [cite_start]到达系统的事件，如用户操作、攻击或请求。 [cite: 154, 159] | 通过 `https://my-app.app` 加载 Web 应用 |
-| **制品（Artifact）** | [cite_start]激励所作用的系统或其部分。 [cite: 155] | Web 前端（Web Frontend） |
-| **环境（Environment）** | [cite_start]场景发生时系统所处的条件。 [cite: 155] | 目标浏览器（例如，基于 Chromium 的浏览器） |
-| **响应（Response）** | [cite_start]系统为应对激励而执行的活动。 [cite: 156, 161] | 浏览器加载并渲染 Web 前端 |
-| **响应度量（Response Measure）** | [cite_start]对响应结果的可量化评估，用于测试和验证。 [cite: 162, 172] | [cite_start]视口内的主要内容在 **2.5 秒** 内加载完成（可通过LCP度量） [cite: 177] |
+| **激励源（Stimulus Source）** | 发出激励的主体，可以是人、系统或其他行动者。  | Web 应用用户 |
+| **激励（Stimulus）** | 到达系统的事件，如用户操作、攻击或请求。  | 通过 `https://my-app.app` 加载 Web 应用 |
+| **制品（Artifact）** | 激励所作用的系统或其部分。  | Web 前端（Web Frontend） |
+| **环境（Environment）** | 场景发生时系统所处的条件。  | 目标浏览器（例如，基于 Chromium 的浏览器） |
+| **响应（Response）** | 系统为应对激励而执行的活动。 | 浏览器加载并渲染 Web 前端 |
+| **响应度量（Response Measure）** | 对响应结果的可量化评估，用于测试和验证。  | 视口内的主要内容在 **2.5 秒** 内加载完成（可通过LCP度量）  |
 
 通过这种结构化的方式，最初“让前端快一点”的模糊要求，就转变成了“**Web 应用用户在 Chromium 浏览器中加载应用时，其 LCP 指标必须在 2.5 秒以内**”这样一个清晰、可执行的架构驱动力。
 
@@ -64,7 +64,7 @@ graph TD
     style C fill:#ccf,stroke:#333,stroke-width:2px
 ```
 
-[cite_start]这个过程不仅为设计提供了明确的目标，也为后续的自动化测试和持续集成奠定了基础 [cite: 176]。
+这个过程不仅为设计提供了明确的目标，也为后续的自动化测试和持续集成奠定了基础。
 
 ## 3. DFX（Design for Excellence）：将质量融入设计的核心方法论
 
