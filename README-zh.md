@@ -52,8 +52,8 @@
 package main
 
 import (
-    "[github.com/gin-gonic/gin](https://github.com/gin-gonic/gin)"
-    "[github.com/turtacn/NFR-DFX-Quality-Toolkit/pkg/sdk/observability/tracing](https://github.com/turtacn/NFR-DFX-Quality-Toolkit/pkg/sdk/observability/tracing)"
+    "github.com/gin-gonic/gin"
+    "github.com/turtacn/NFR-DFX-Quality-Toolkit/pkg/sdk/observability/tracing"
 )
 
 func main() {
