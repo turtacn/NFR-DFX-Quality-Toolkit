@@ -17,7 +17,7 @@ NFR-DFX-Quality-Toolkit 是一个开源项目，旨在通过整合非功能性�
 现代软件系统面临多维质量挑战，非功能性需求（NFR）与卓越设计（DFX）方法论的结合能够有效应对这些挑战。以下通过图表和文字分析关键问题：
 
 ```mermaid
-graph TD
+graph LR
     %% 图例
     subgraph 图例[Legend]
         P[问题（Problem）] -->|导致| I[影响（Impact）]
@@ -114,5 +114,3 @@ graph TD
 - \[4] Istio Service Mesh - [https://istio.io/latest/docs/](https://istio.io/latest/docs/)
 - \[5] Chaos Mesh - [https://chaos-mesh.org/docs/](https://chaos-mesh.org/docs/)
 - \[6] Kubernetes Operator Pattern - [https://kubernetes.io/docs/concepts/extend-kubernetes/operator/](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
-- \[7] Go Module Reference - [https://go.dev/ref/mod](https://go.dev/ref/mod)
-- \[8] Clean Architecture - [https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
