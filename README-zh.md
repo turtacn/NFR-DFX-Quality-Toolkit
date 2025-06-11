@@ -88,7 +88,7 @@ func main() {
 
 本工具包采用模块化、分层化的架构设计，确保各组件松耦合且易于使用或替换。它主要由文档、可复用SDK、框架模板和可执行工具组成。
 
-欲了解详细设计，请参阅我们的[**架构设计文档**](https://www.google.com/search?q=./docs/architecture.md)。
+欲了解详细设计，请参阅我们的[**架构设计文档**](./docs/architecture.md)。
 
 ## 快速开始
 
@@ -96,7 +96,7 @@ func main() {
 
     ```bash
     # (即将推出)
-    go install [github.com/turtacn/NFR-DFX-Quality-Toolkit/cmd/nfr-toolkit@latest](https://github.com/turtacn/NFR-DFX-Quality-Toolkit/cmd/nfr-toolkit@latest)
+    go install https://github.com/turtacn/NFR-DFX-Quality-Toolkit/cmd/nfr-toolkit@latest
     nfr-toolkit init my-new-service --template go-gin
     ```
 
@@ -107,8 +107,8 @@ func main() {
 
 ## 如何贡献
 
-我们欢迎任何形式的贡献！请阅读我们的[**贡献指南**](https://www.google.com/search?q=./CONTRIBUTING.md)来开始。您可以查看 [Issues页面](https://www.google.com/search?q=https://github.com/turtacn/NFR-DFX-Quality-Toolkit/issues)来寻找灵感。
+我们欢迎任何形式的贡献！请阅读我们的[**贡献指南**](https://www.google.com/search?q=./CONTRIBUTING.md)来开始。您可以查看 [Issues页面](https://github.com/turtacn/NFR-DFX-Quality-Toolkit/issues)来寻找灵感。
 
 ## 许可证
 
-本项目基于 MIT 许可证。详情请参阅 [LICENSE](https://www.google.com/search?q=./LICENSE) 文件。
+本项目基于 MIT 许可证。详情请参阅 [LICENSE](./LICENSE) 文件。
