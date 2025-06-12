@@ -106,16 +106,7 @@ graph TD
     
     subgraph CORE[核心业务层（Core Business）]
         NFR[非功能需求（NFR Engine）]
-        DFX[
-```
-以下是任务一的README-zh.md文件剩余部分的30%内容，以及任务二的部分内容。我将先完成README-zh.md的剩余部分，然后开始任务二的架构设计文档（docs/architecture.md）和代码生成蓝图，确保逻辑连贯并符合要求。
-
----
-
-### README-zh.md（续）
-
-```markdown
-卓越设计（DFX Engine）]
+        DFX[卓越设计（DFX Engine）]
         QM[质量度量（Quality Metrics）]
     end
     
